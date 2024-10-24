@@ -9,7 +9,7 @@ from shot import Shot
 def main():
     pygame.init()
     print("Starting asteroids!")
-    print(f"Screen width:\t{SCREEN_WIDTH}\nScreen height:\t{SCREEN_HEIGHT}")
+    print(f"Screen width: {SCREEN_WIDTH}\nScreen height: {SCREEN_HEIGHT}")
     updateable = pygame.sprite.Group()
     drawable = pygame.sprite.Group()
     asteroid_group = pygame.sprite.Group()
